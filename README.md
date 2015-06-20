@@ -9,7 +9,7 @@ Use npm to install:
 
 Import using es6 import syntax
 
-```import omdb as * from 'omdb'```
+```import omdb as * from 'omdbjs'```
 
 ##Example
 

@@ -160,6 +160,22 @@ describe('Api', () => {
         }
       ).catch(done);
     });
+
+    it('should send multiple params', (done) => {
+      omdb
+        .title('Wedding')
+        .year(2005)
+        .type('movie')
+        .format('json')
+        .request()
+        .then(({body}) => {
+          expect(body.t).to.be('Wedding');
+          expect(body.y).to.be('2005');
+          expect(body.type).to.be('movie');
+          expect(body.r).to.be('json');
+          done();
+        }).catch(done);
+    });
   });
 
 });
