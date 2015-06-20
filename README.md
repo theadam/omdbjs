@@ -16,7 +16,7 @@ Import using es6 import syntax
 The ```request``` function returns a promise that resolves to a [superagent response](http://visionmedia.github.io/superagent/#response-properties).  The [OMDb site](http://www.omdbapi.com/) can be used to see the format of the response body.
 ```javascript
 omdb
-  .title('Wedding')
+  .title('Wedding Crashers')
   .year(2005)
   .type('movie')
   .format('json')
