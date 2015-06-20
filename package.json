@@ -1,6 +1,6 @@
 {
   "name": "omdbjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A JS client library for the OMDb api",
   "main": "lib/index.js",
   "files": [
